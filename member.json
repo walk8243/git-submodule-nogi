@@ -1,38 +1,38 @@
 [
   {
     "name": [ "秋元", "真夏" ],
-    "call": [ "akimoto", "manatsu" ],
+    "english": [ "akimoto", "manatsu" ],
     "term": 1,
     "captain": true
   },
   {
     "name": [ "白石", "麻衣" ],
-    "call": [ "shiraishi", "mai" ],
+    "english": [ "shiraishi", "mai" ],
     "term": 1
   },
   {
     "name": [ "堀", "未央奈" ],
-    "call": [ "hori", "miona" ],
+    "english": [ "hori", "miona" ],
     "term": 2
   },
   {
     "name": [ "山下", "美月" ],
-    "call": [ "yamashita", "mizuki" ],
+    "english": [ "yamashita", "mizuki" ],
     "term": 3
   },
   {
     "name": [ "遠藤", "さくら" ],
-    "call": [ "endo", "sakura" ],
+    "english": [ "endo", "sakura" ],
     "term": 4
   },
   {
     "name": [ "賀喜", "遥香" ],
-    "call": [ "kaki", "haruka" ],
+    "english": [ "kaki", "haruka" ],
     "term": 4
   },
   {
     "name": [ "早川", "聖来" ],
-    "call": [ "hayakawa", "seira" ],
+    "english": [ "hayakawa", "seira" ],
     "term": 4
   }
 ]

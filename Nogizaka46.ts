@@ -2,11 +2,12 @@ const members: memberData[] = require('./member.json');
 
 export default class Nogizaka46 {
   name?: memberName;
-  call?: memberName;
+  english?: memberName;
   term?: number;
   captain?: boolean;
 
-  constructor(name: string) {
+  constructor(name?: string) {
+    if (!name) { return; }
     for (const member of members) {
       if (member['name'].includes(name)) {
         this.setMember(member);
@@ -16,16 +17,8 @@ export default class Nogizaka46 {
 
   protected setMember(member: memberData) {
     this.name = member['name'];
-    this.call = member['call'];
+    this.english = member['english'];
     this.term = member['term'];
     this.captain = member['captain'] || false;
   }
 }
-
-type memberData = {
-  name: memberName,
-  call: memberName,
-  term: number,
-  captain?: boolean,
-};
-type memberName = [ string, string ];
