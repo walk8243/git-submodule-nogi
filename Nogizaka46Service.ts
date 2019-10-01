@@ -1,4 +1,4 @@
-import Nogizaka46 from "./Nogizaka46";
+import Nogizaka46, { memberData } from './Nogizaka46';
 
 export default class Nogizaka46Service {
   static listMembers() {

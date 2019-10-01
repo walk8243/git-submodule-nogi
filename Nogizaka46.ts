@@ -22,3 +22,11 @@ export default class Nogizaka46 {
     this.captain = member['captain'] || false;
   }
 }
+
+export type memberData = {
+  name: memberName,
+  english: memberName,
+  term: number,
+  captain?: boolean,
+};
+export type memberName = [ string, string ];
