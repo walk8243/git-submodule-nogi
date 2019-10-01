@@ -15,7 +15,7 @@ export default class Nogizaka46 {
     }
   }
 
-  protected setMember(member: memberData) {
+  setMember(member: memberData) {
     this.name = member['name'];
     this.english = member['english'];
     this.term = member['term'];
